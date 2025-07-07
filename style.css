@@ -120,3 +120,54 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+
+@media (max-width: 768px) {
+  header, .generator, footer {
+    max-width: 100%;
+    margin: 0.5rem;
+    padding: 1.2rem;
+    border-radius: 8px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .intro {
+    font-size: 1.25rem;
+  }
+
+  .btn {
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem auto;
+    width: 100%;
+    display: block;
+  }
+
+  input[type="number"] {
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .controls label {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    display: block;
+    text-align: left;
+  }
+
+  .output {
+    font-size: 0.95rem;
+    height: 300px;
+    padding: 1rem;
+  }
+
+  footer {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+}
